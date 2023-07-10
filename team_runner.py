@@ -1,9 +1,9 @@
-from team import Team
+from team import *
 
-players = [" Andy Murray", " Leo Messi", " Jonah Lomu", " Michael Phelps"]
+players = ["Andy Murray", " Leo Messi", " Jonah Lomu", " Michael Phelps"]
 
 team = Team ("All stars", players, "Arsene Wenger")
 
-print (eam.has_player ("Andy Murray"))
+print(team.has_player("Andy Murray")) 
 
 
